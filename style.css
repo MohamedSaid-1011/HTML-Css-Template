@@ -1,0 +1,375 @@
+body
+{
+  font-family: arial;
+}
+#page
+{
+  height: 100%;
+  display: block;
+}
+
+/*  Start Header  */
+#header
+{
+  position: sticky;
+  width: 1503px;
+  height: 50px;
+  background-color: white ;  
+  box-shadow: 0px 0px 10px  #888888 ;
+  border-radius: 5px;
+}
+
+#footer
+{
+  width: 1503px;
+  height: 50px;
+  background-color: #222222 ; 
+  color: white;
+  box-shadow: 0px 0px 10px  #888888 ; 
+  border-radius: 5px;
+  position:static ;
+  left: 0px;
+  bottom: 0px;
+  margin-top: 10px;
+}
+
+#footer p 
+{
+  font-size: 16px;
+  height: 40px;
+  width: 300px;
+  display: inline-block; 
+  margin-left: 350px;
+}
+#footer h1 
+{
+  display: inline-block;
+}
+
+#logo 
+{
+  display: inline-block;
+  margin-left: 290px;
+  color: darkorange;
+  position: relative;
+  top: -14px;
+}
+
+#nav
+{
+  display: inline-block ;
+  position: absolute;
+  left: 700px;
+  top: 16px;
+    
+}
+
+  div [id="nav"] a
+{
+  text-align: center;
+  text-decoration: none ;
+  padding: 17px;
+  margin:0px;  
+  border-radius: 5px;
+} 
+a:visited
+{
+  color: black;
+}
+a:hover
+{
+	background: black;
+  color: white;
+}
+#logoLink:hover
+{
+  background: none ; 
+  color: black;
+}
+/* End Header */
+
+
+/*Start Slide Show Section*/
+
+#slideshow
+{
+  width: 1503px;
+  height: 990px;
+  box-shadow: 0px 0px 10px  #888888 ;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+
+}
+ #slideshow h1 
+{
+  position: absolute;
+  top: 100px;
+  left:520px;
+  font-size: 2.5em;
+}
+
+#slideshow p
+{
+  position: absolute;
+  top: 300px;
+  left: 550px;
+  font-size:1em;
+  width: 400px;
+  font-size: 3em;
+  color: #585858;
+}
+#slideshow img
+{
+  box-shadow: none;
+  height: 90%
+}
+
+/* End Slide Show Section */
+
+
+/* Start Facility Section */
+
+
+#Facility
+{
+  width: 1503px;
+  height:400px;
+  box-shadow: 0px 0px 10px  #888888 ;
+  display: block;
+  margin-top: 10px;
+}
+
+#facilitiesContainer
+{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  
+}
+
+.facilities
+{
+  margin: 20px ;
+  display: inline-block;
+  width:400px ;
+  height: auto;
+  float: left;
+  background-color: white; 
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px  #888888 ;
+
+}
+
+.facilityNumber
+{
+  margin: -30px 172px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  color: white;
+  font-size: 30px;
+}
+
+.facilityName
+{
+  display: inline-block;
+  width: 100% ;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.facilityDescription
+{
+  text-align: center;
+  color:  #404040 ;
+  font-size: 18px;
+  display: block;
+  height: 50px;
+  margin: 20px 25px ;
+}
+
+.seeExample
+{
+  display: block;
+  border-radius: 7px;
+  width: 40%;
+  height: 40px;
+  margin: 0px 120px 25px;
+  color: white;
+  font-family: arial, tahooma ;
+  font-size: 19px;
+}
+
+div[id="facility_1"] h1 
+{
+  background-color: #03a9f5;
+}
+
+div[id="facility_1"] button 
+{
+  background-color: #03a9f5 ;
+}
+
+div[id="facility_1"]
+{
+  border-bottom: 2px solid #03a9f5 ;
+}
+
+div[id="facility_2"] h1 
+{
+  background-color: #01978a;
+}
+
+div[id="facility_2"] button 
+{
+  background-color: #01978a ;
+}
+
+div[id="facility_2"]
+{
+  border-bottom: 2px solid #01978a ;
+}
+
+div[id="facility_3"] h1 
+{
+  background-color: #fe5724;
+}
+
+div[id="facility_3"] button 
+{
+  background-color: #fe5724 ;
+}
+
+div[id="facility_3"]
+{
+  border-bottom: 2px solid #fe5724 ;
+}
+
+/* End Facility Section */
+
+
+
+/* Start About Section */
+
+#about 
+{
+  width: 1503px;
+  height: 500px;
+  box-shadow: 0px 0px 10px  #888888 ;
+  padding-top: 50px; 
+  display: block;
+  margin-top: 10px;
+}
+
+#aboutContainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  align-items: center;
+}
+#aboutContainer div
+{
+  width: 500px;
+}
+
+#aboutImage
+{
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0px 0px 10px  #888888 ;
+}
+
+#aboutContainer div h1 
+{
+  font-size: 3em;
+}
+
+#aboutContainer div p 
+{
+  width: 500px;
+  font-size: 2em;
+  color: #585858;
+}
+/* End About Section */
+
+
+/* Start Skills sections */
+
+#OurSkills
+{
+  width: 1503px;
+  height: 770px;
+  box-shadow: 0px 0px 10px  #888888 ;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px; 
+  display: block;
+  margin-top: 10px;
+}
+
+#OurSkills h1 
+{
+  margin-left: 650px;
+  font-size: 3.3em;
+  margin-top: 0px;
+  padding-top: 80px;
+}
+
+#skillsContainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-content: space-between;
+  top: 20px;
+  left: 200px; 
+  width: 1000px;
+  height: 450px;
+}
+
+.skillContainer
+{
+   width: 800px;
+   height: 60px;
+   background-color: white ;
+   margin-top: 15px ;
+   border-radius: 5px ;
+   box-shadow: 0px 0px 10px  #888888 ;
+}
+
+.skills
+{
+  background-color:  #000000 ;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 55px;
+  color: white;
+  border-bottom-left-radius : 5px ;
+  border-top-left-radius: 5px;
+  height: 100%;
+}
+
+.html       { background-color: #03a9f5 ; width: 90%; }
+.css        { background-color: #01978a ; width: 85%; }
+.javascript { background-color: #fe5724 ; width: 80%; }
+.php        { background-color: #888888 ; width: 77%; }
+.sql        { background-color: black   ; width: 90%;}
+
+#skillsContainer p
+{
+  display: block;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+/* Start Skills sections */
